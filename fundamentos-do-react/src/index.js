@@ -1,4 +1,9 @@
 import ReactDOM from 'react-dom';
+import React from 'react'
 
+const tag = <strong>Olá react - Danilo Righetto</strong>
 const el = document.getElementById('root');
-ReactDOM.render('Ola React - Danilo !!!', el);
+ReactDOM.render(
+  <div>{ tag }</div>,
+  el
+);
