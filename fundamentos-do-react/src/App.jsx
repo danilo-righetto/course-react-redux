@@ -6,21 +6,25 @@ import Primeiro from './components/basicos/Primeiro'
 import ComParametro from './components/basicos/ComParamentro'
 import Fragmento from './components/basicos/Fragmento'
 import Aleatorio from './components/basicos/Aleatorio'
+import Familia from './components/basicos/Familia'
 
 export default () => (
   <div className="App">
     <h1>Fundamentos</h1>
-      <div className="Cards">
-        <Card titulo="#04 - Desafio Aleatorio">
+    <div className="Cards">
+        <Card titulo="#05 - Familia" color="#E76F51">
+          <Familia sobrenome="Cosme Righetto"></Familia>
+        </Card>
+        <Card titulo="#04 - Desafio Aleatorio" color="#F4A261">
           <Aleatorio min={10} max={20} />
         </Card>
-        <Card titulo="#03 - Fragmento">
+        <Card titulo="#03 - Fragmento" color="#E9C46A">
           <Fragmento />
         </Card>
-        <Card titulo="#02 - Com Parametro">
+        <Card titulo="#02 - Com Parametro" color="#2A9D8F">
           <ComParametro titulo="Danilo" subtitulo="Righetto" />
         </Card>
-        <Card titulo="#01 - Primeiro">
+        <Card titulo="#01 - Primeiro" color="#264653">
           <Primeiro></Primeiro>
         </Card>
       </div>
