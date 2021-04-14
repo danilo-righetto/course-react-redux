@@ -10,11 +10,15 @@ import Familia from "./components/basicos/Familia";
 import FamiliaFilhos from "./components/basicos/FamiliaFilhos";
 import FamiliaMembro from "./components/basicos/FamiliaMembro";
 import FamiliaFilhosClonados from "./components/basicos/FamiliaFilhosClonados";
+import ListaAlunos from "./components/repeticao/ListaAlunos"
 
 export default () => (
   <div className="App">
     <h1>Fundamentos</h1>
     <div className="Cards">
+      <Card titulo="#08 - Repetição" color="#457B9D">
+        <ListaAlunos></ListaAlunos>
+      </Card>
       <Card titulo="#07 - Familia com Filhos Clonados" color="#A8DADC">
         <FamiliaFilhosClonados sobrenome="Machado">
           <FamiliaMembro nome="Gustavo" sobrenome="Guanabara"></FamiliaMembro>
