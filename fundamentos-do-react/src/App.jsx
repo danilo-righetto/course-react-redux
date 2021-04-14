@@ -12,11 +12,17 @@ import FamiliaMembro from "./components/basicos/FamiliaMembro";
 import FamiliaFilhosClonados from "./components/basicos/FamiliaFilhosClonados";
 import ListaAlunos from "./components/repeticao/ListaAlunos"
 import TabelaProdutos from "./components/repeticao/TabelaProdutos"
+import ParOuImpar from './components/condicional/ParOuImpar'
 
 export default () => (
   <div className="App">
     <h1>Fundamentos</h1>
     <div className="Cards">
+      <Card titulo="#10 - Renderização Condicional" color="#003049">
+        <ParOuImpar numero={20} />
+        <ParOuImpar numero={11} />
+        <ParOuImpar numero={6} />
+      </Card>
       <Card titulo="#09 - Desafio Repetição" color="#1D3557">
         <TabelaProdutos />
       </Card>
